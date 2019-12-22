@@ -4,6 +4,7 @@
     {
         Position PlateauPosition { get; }
     }
+
     public class Plateau : IPlateau
     {
         public Position PlateauPosition { get; private set; }
